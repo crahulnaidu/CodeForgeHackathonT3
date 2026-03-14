@@ -1,0 +1,12 @@
+Average inference time: 0.17113286018371582 seconds
+FPS: 5.843413117308228
+
+Loading: cbam_stage2.pt
+Average inference time: 0.1716683864593506 seconds
+FPS: 5.8251843605275
+
+===== CPU COMPARISON =====
+Baseline time : 0.1711 sec
+CBAM time     : 0.1717 sec
+Latency increase: 0.31%
+
