@@ -7,7 +7,7 @@ from pytorch_grad_cam import GradCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image
 
 MODEL_PATH = "cbam_stage2.pt"
-IMG_PATH = "test6.png"
+IMG_PATH = "India_000874.jpg"
 OUT_PATH = "gradcam_result.png"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
