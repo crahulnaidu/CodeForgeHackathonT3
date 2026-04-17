@@ -1,4 +1,4 @@
-path: final_dataset
+path: /home/dsl19/Downloads/pothole_dataset_final
 
 train: images/train
 val: images/val
