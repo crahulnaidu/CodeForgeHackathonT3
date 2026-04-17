@@ -48,7 +48,7 @@ input_tensor = torch.from_numpy(img_norm.transpose(2, 0, 1)).float().unsqueeze(0
 input_tensor.requires_grad_(True)
 
 # 3. Run inference on the padded image to extract the target class
-results = yolo(padded_bgr, conf=0.15)
+results = yolo(padded_bgr, conf=0.10)
 boxes = results[0].boxes
 
 if boxes is None or len(boxes) == 0:
